@@ -51,3 +51,24 @@ python manage.py runserver 0.0.0.0:8000
 ```
 
 Before running natively through the terminal, you need to ensure that the Postgres database is running on your local machine and that the necessary database configurations are in place.
+
+### Urls 
+
+/api/register/ - for registration a user 
+
+/api/login/ - for login a user
+
+/api/logout/ - for logout a user
+
+/api/category_list/ - to create and see the category 
+
+/api/portfolio_list/ - to create and see the portfolio
+
+/api/portfolio_detail/<int:pk>/ - to edit or delete portfolio
+
+/api/portfolio/<int:portfolio_id>/blocks/ - to see all the blocks whitch created for portfolio or create block
+
+/api/portfolio_detail/<int:portfolio_id>/block/<int:block_id>/ - to update or delete block
+
+
+
