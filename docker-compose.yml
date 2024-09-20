@@ -9,11 +9,11 @@ services:
       - .envs/.postgres
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:80
+    command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
     ports:
-      - "80:80"
+      - "8000:80"
     env_file:
       - .envs/.postgres
     depends_on:
