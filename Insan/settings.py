@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 import os
 from pathlib import Path
+
 from .config import DB_NAME, DB_USER, DB_PWD, DB_HOST, DB_PORT
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -26,7 +27,7 @@ SECRET_KEY = 'django-insecure-3e!k%f60u@9bo!q3c6d=q)n5g&81+=nwrbfg*slx4@*t2p(er%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', '45.138.158.221', 'alternativetech.uz', 'www.alternativetech.uz', '0.0.0.0', "127.0.0.1", "80:80"]
 
 # Application definition
 
